@@ -1,7 +1,7 @@
 window.CONFIG = {
   macros: [
     {
-      category: 'Entertainment',
+      category: 'Entretenimento',
       name: 'YouTube',
       triggers: [
         'y',
@@ -15,7 +15,7 @@ window.CONFIG = {
       commands: {
         go: {
           template: 'https://youtu.be/{$}',
-          description: 'go to video'
+          description: 'ir para video'
         },
         search: {
           template: '{@}/results?search_query={$}'
@@ -94,7 +94,7 @@ window.CONFIG = {
       commands: {
         go: {
           template: '{@}/r/{$}',
-          description: 'go to subreddit'
+          description: 'ir para subreddit'
         },
         search: {
           template: '{@}/search?q={$}'
@@ -110,7 +110,7 @@ window.CONFIG = {
       pinned: true
     },
     {
-      category: 'Programming',
+      category: 'Programação',
       name: 'GitHub',
       icon: 'github',
       url: 'https://github.com',
@@ -124,7 +124,7 @@ window.CONFIG = {
       commands: {
         go: {
           template: '{@}/{$}',
-          description: 'go to user'
+          description: 'ir para usuário'
         },
         search: {
           template: '{@}/search?q={$}'
@@ -138,7 +138,7 @@ window.CONFIG = {
       pinned: true
     },
     {
-      category: 'Programming',
+      category: 'Programação',
       name: 'StackOverflow',
       icon: 'stackoverflow',
       url: 'https://stackoverflow.com',
@@ -157,7 +157,7 @@ window.CONFIG = {
         },
         go: {
           template: '{@}/questions/{$}',
-          description: 'go to question'
+          description: 'ir para pergunta'
         }
       },
       bgColor: {
@@ -170,7 +170,7 @@ window.CONFIG = {
       pinned: true
     },
     {
-      category: 'Programming',
+      category: 'Programação',
       name: 'ChatGPT',
       icon: 'chatGPT',
       url: 'https://chat.openai.com/chat',
@@ -204,7 +204,7 @@ window.CONFIG = {
       commands: {
         search: {
           template: '{@}/?text={$}',
-          description: 'translate text'
+          description: 'traduzir texto'
         }
       },
       bgColor: {
@@ -232,7 +232,7 @@ window.CONFIG = {
       commands: {
         go: {
           template: '{@}/{$}',
-          description: 'go to user'
+          description: 'ir para usuário'
         }
       },
       bgColor: {
@@ -246,7 +246,7 @@ window.CONFIG = {
       pinned: true
     },
     {
-      category: 'Music',
+      category: 'Música',
       name: 'spotify',
       icon: 'spotify',
       url: 'https://open.spotify.com',
@@ -264,7 +264,7 @@ window.CONFIG = {
         },
         go: {
           template: '{@}/track/{$}',
-          description: 'go to track'
+          description: 'ir para faixa'
         }
       },
       bgColor: {
@@ -319,7 +319,7 @@ window.CONFIG = {
       pinned: true
     },
     {
-      category: 'Entertainment',
+      category: 'Entretenimento',
       name: 'Netflix',
       triggers: [
         'n',
@@ -527,7 +527,7 @@ window.CONFIG = {
       commands: {
         go: {
           template: '{@}/{$}',
-          description: 'go to'
+          description: 'ir para'
         },
         search: {
           template: '{@}/search?c%5Bq%5D={$}&c%5Bsection%5D=auto'
