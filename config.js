@@ -1,7 +1,7 @@
 window.CONFIG = {
   macros: [
     {
-      category: 'Entertainment',
+      category: 'Entretenimento',
       name: 'YouTube',
       triggers: [
         'y',
@@ -15,7 +15,7 @@ window.CONFIG = {
       commands: {
         go: {
           template: 'https://youtu.be/{$}',
-          description: 'go to video'
+          description: 'ir para vídeo'
         },
         search: {
           template: '{@}/results?search_query={$}'
@@ -29,7 +29,7 @@ window.CONFIG = {
       pinned: true
     },
     {
-      category: 'Communication',
+      category: 'Communicação',
       name: 'Telegram',
       icon: 'telegram',
       url: 'http://t.me',
@@ -58,7 +58,7 @@ window.CONFIG = {
       pinned: true
     },
     {
-      category: 'Communication',
+      category: 'Communicação',
       name: 'WhatsApp',
       icon: 'whatsApp',
       url: 'https://web.whatsapp.com',
@@ -94,7 +94,7 @@ window.CONFIG = {
       commands: {
         go: {
           template: '{@}/r/{$}',
-          description: 'go to subreddit'
+          description: 'ir para subreddit'
         },
         search: {
           template: '{@}/search?q={$}'
@@ -110,7 +110,7 @@ window.CONFIG = {
       pinned: true
     },
     {
-      category: 'Programming',
+      category: 'Programação',
       name: 'GitHub',
       icon: 'github',
       url: 'https://github.com',
@@ -124,7 +124,7 @@ window.CONFIG = {
       commands: {
         go: {
           template: '{@}/{$}',
-          description: 'go to user'
+          description: 'ir para usuário'
         },
         search: {
           template: '{@}/search?q={$}'
@@ -138,7 +138,7 @@ window.CONFIG = {
       pinned: true
     },
     {
-      category: 'Programming',
+      category: 'Programação',
       name: 'StackOverflow',
       icon: 'stackoverflow',
       url: 'https://stackoverflow.com',
@@ -157,7 +157,7 @@ window.CONFIG = {
         },
         go: {
           template: '{@}/questions/{$}',
-          description: 'go to question'
+          description: 'ir para pergunta'
         }
       },
       bgColor: {
@@ -170,7 +170,7 @@ window.CONFIG = {
       pinned: true
     },
     {
-      category: 'Programming',
+      category: 'Programação',
       name: 'ChatGPT',
       icon: 'chatGPT',
       url: 'https://chat.openai.com/chat',
@@ -191,7 +191,7 @@ window.CONFIG = {
       pinned: true
     },
     {
-      category: 'Other',
+      category: 'Outro',
       name: 'Translate',
       icon: 'translate',
       url: 'https://translate.google.com',
@@ -204,7 +204,7 @@ window.CONFIG = {
       commands: {
         search: {
           template: '{@}/?text={$}',
-          description: 'translate text'
+          description: 'Traduzir texto'
         }
       },
       bgColor: {
@@ -232,7 +232,7 @@ window.CONFIG = {
       commands: {
         go: {
           template: '{@}/{$}',
-          description: 'go to user'
+          description: 'ir para usuário'
         }
       },
       bgColor: {
@@ -264,7 +264,7 @@ window.CONFIG = {
         },
         go: {
           template: '{@}/track/{$}',
-          description: 'go to track'
+          description: 'ir para faixa'
         }
       },
       bgColor: {
@@ -319,7 +319,7 @@ window.CONFIG = {
       pinned: true
     },
     {
-      category: 'Entertainment',
+      category: 'Entretenimento',
       name: 'Netflix',
       triggers: [
         'n',
@@ -372,7 +372,7 @@ window.CONFIG = {
       pinned: true
     },
     {
-      category: 'Work',
+      category: 'Trabalho',
       name: 'Linkedin',
       icon: 'linkedin',
       key: 'KeyL',
@@ -398,7 +398,7 @@ window.CONFIG = {
       pinned: true
     },
     {
-      category: 'Communication',
+      category: 'Communicação',
       name: 'Gmail',
       icon: 'gmail',
       url: 'https://gmail.com',
@@ -426,7 +426,7 @@ window.CONFIG = {
       pinned: true
     },
     {
-      category: 'Work',
+      category: 'Trabalho',
       name: 'Google Drive',
       triggers: [
         'gd',
@@ -447,7 +447,7 @@ window.CONFIG = {
       pinned: true
     },
     {
-      category: 'Shopping',
+      category: 'Compras',
       name: 'Amazon',
       triggers: [
         'a',
@@ -469,7 +469,7 @@ window.CONFIG = {
       pinned: true
     },
     {
-      category: 'Education',
+      category: 'Educação',
       name: 'Wikipedia',
       icon: 'wikipedia',
       triggers: [
@@ -497,7 +497,7 @@ window.CONFIG = {
       pinned: true
     },
     {
-      category: 'Work',
+      category: 'Trabalho',
       name: 'Slack',
       icon: 'slack',
       triggers: [
@@ -527,7 +527,7 @@ window.CONFIG = {
       commands: {
         go: {
           template: '{@}/{$}',
-          description: 'go to'
+          description: 'ir para'
         },
         search: {
           template: '{@}/search?c%5Bq%5D={$}&c%5Bsection%5D=auto'
@@ -541,7 +541,7 @@ window.CONFIG = {
       textColor: '#e8e8e8'
     },
     {
-      category: 'Search',
+      category: 'Busca',
       name: 'DuckDuckGo',
       triggers: [
         'dd',
@@ -564,7 +564,7 @@ window.CONFIG = {
       textColor: '#e8e8e8'
     },
     {
-      category: 'Search',
+      category: 'Busca',
       name: 'Bing',
       triggers: [
         'b',
@@ -585,7 +585,7 @@ window.CONFIG = {
       textColor: '#e8e8e8'
     },
     {
-      category: 'Search',
+      category: 'Busca',
       name: 'Yandex',
       triggers: [
         'ya',
